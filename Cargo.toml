@@ -5,3 +5,4 @@ authors = ["Martin Habovštiak <martin.habovstiak@gmail.com>"]
 
 [dependencies]
 futures = "0.1"
+unreachable = "0.1"

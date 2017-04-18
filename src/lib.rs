@@ -1,4 +1,7 @@
 extern crate futures;
+extern crate unreachable;
+
+pub mod future_object;
 
 pub enum Poll<F: Future> {
     Success(F::Item),
